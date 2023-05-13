@@ -30,8 +30,8 @@ Make sure you have the following software installed:
 1. Clone or download the repository to your local machine.
 2. Import the project into your preferred Java IDE (e.g., IntelliJ, Eclipse).
 3. Create a MySQL database for the application.
-4. Import the database schema from the provided SQL file (`database.sql`) into your MySQL database. This will create the necessary tables and initial data.
-5. Update the database connection details in the `config.properties` file located in the `src` directory. Provide the correct values for your MySQL server, database name, username, and password.
+4. Create the necessary tables. 
+5. Update the database connection details in the `DBconnector.java` file located in the `src` directory. Provide the correct values for your MySQL server, database name, username, and password.
 6. Add the MySQL Connector/J JAR file to the project's dependencies. You can download it from the official MySQL website or use a dependency management tool like Maven or Gradle.
 7. Build the project to ensure there are no compilation errors.
 
@@ -52,7 +52,6 @@ Make sure you have the following software installed:
 
 ## Troubleshooting
 
-- If you encounter any issues related to the database connection, double-check the database connection details in the `config.properties` file.
 - Ensure that the MySQL Server is running and accessible.
 - Verify that you have imported the correct SQL file and the database schema is set up correctly.
 
