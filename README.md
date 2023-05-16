@@ -59,10 +59,6 @@ Make sure you have the following software installed:
 
 Contributions to this project are welcome. If you encounter any bugs or have suggestions for new features, please create an issue or submit a pull request on the GitHub repository.
 
-## License
-
-This project is licensed under the [MIT License](LICENSE).
-
 ## Acknowledgments
 
 - The project utilizes the JavaFX library for building the graphical user interface.
